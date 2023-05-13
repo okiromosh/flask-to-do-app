@@ -1,0 +1,6 @@
+pip install
+            virtualenv
+                env/bin/activate
+            flask
+            flask-sqlalchemy
+
