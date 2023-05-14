@@ -19,7 +19,7 @@
                 <th>Added</th>
                 <th>Actions</th>
             </tr>
-            {% for task in tasks %}
+            {% for task in tasks|reverse %}
             <tr>
                 <td>{{ task.content|capitalize }}</td>
                 <td>{{ task.date_created.date() }}</td>
